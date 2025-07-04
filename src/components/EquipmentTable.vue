@@ -166,6 +166,31 @@ const rowData = ref([
 		rating: "A",
 		specifications: "100% Cotton. Machine wash cold, Tumble dry low.",
 	},
+	{
+		type: "T-Shirt",
+		item: "SUPIMA® Cotton T-Shirt",
+		url: "https://www.uniqlo.com/us/en/products/E455365-000/00?colorDisplayCode=09&sizeDisplayCode=004",
+		notes:
+			"SUPIMA® cotton that is softer and more durable than regular cotton. This shirt resembles a classic t-shirt but has a more refined look.",
+		rating: "B",
+		specifications: "100% Cotton. Machine wash cold.",
+	},
+	{
+		type: "T-Shirt",
+		item: "Bronson Loopwheel Tubular Athletic T-Shirt",
+		url: "https://bronsonshop.com/products/loopwheel-tubular-athletic-t-shirt-vintage-black?option1=White&option2=M&variant=43915228774616",
+		notes: "10.5 oz. ringspun cotton. Tubular T-shirt, No-Seam.",
+		rating: "UNTESTED",
+		specifications: "100% Cotton. Machine washable.",
+	},
+	{
+		type: "T-Shirt",
+		item: "Bronson L9 oz US Cotton Tubular T-Shirt",
+		url: "https://bronsonshop.com/collections/short-sleeves/products/9-oz-us-cotton-ringspun-relaxed-fit-tubular-t-shirt-black?_pos=5&_fid=aaa74ecad&_ss=c&variant=40600251302083",
+		notes: "9 oz. cotton jersey. Tubular T-shirt, No-Seam",
+		rating: "UNTESTED",
+		specifications: "100% Cotton. Machine washable.",
+	},
 ]);
 
 const defaultColDef: ColDef = {
