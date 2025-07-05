@@ -191,6 +191,15 @@ const rowData = ref([
 		rating: "UNTESTED",
 		specifications: "100% Cotton. Machine washable.",
 	},
+	{
+		type: "Pants",
+		item: "Wrangler ATG™ Men's Cliff Side Utility Pant",
+		url: "www.wrangler.com/shop/wrangler-atg-mens-cliff-side-utility-pant-NS849U.html?merchCategory=search&dwvar_NS849U_color=NS849ML",
+		notes:
+			"Cheap. Has a couple extra pockets. Lightweight and breathable. I don't find the material very comfortable.",
+		rating: "B",
+		specifications: "96% Nylon, 4% Spandex, 5.3 oz.",
+	},
 ]);
 
 const defaultColDef: ColDef = {
