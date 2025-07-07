@@ -114,13 +114,14 @@ const defaultColDef: ColDef = {
 </script>
 
 <template>
-	<div style="width: 100%">
+	<div style="width: 100%; height: 600px">
 		<AgGridVue
+			class="ag-theme-alpine"
+			style="height: 100%"
 			:columnDefs="columnDefs"
 			:rowData="rowData"
 			:defaultColDef="defaultColDef"
 			:animateRows="true"
-			:dom-layout="'autoHeight'"
 			:theme="myTheme"
 		/>
 	</div>

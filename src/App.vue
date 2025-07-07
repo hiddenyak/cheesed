@@ -1,3 +1,7 @@
+<script setup>
+import Header from "./components/Header.vue";
+</script>
+
 <template>
 	<Header />
 	<main>
@@ -5,6 +9,9 @@
 	</main>
 </template>
 
-<script setup>
-import Header from "./components/Header.vue";
-</script>
+<style>
+main {
+	padding: 1rem;
+	box-sizing: border-box;
+}
+</style>

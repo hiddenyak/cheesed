@@ -1,9 +1,9 @@
+<script setup lang="ts">
+import EquipmentGrid from "../components/EquipmentGrid.vue";
+</script>
+
 <template>
 	<div>
-		<EquipmentTable />
+		<EquipmentGrid />
 	</div>
 </template>
-
-<script setup lang="ts">
-import EquipmentTable from "../components/EquipmentTable.vue";
-</script>

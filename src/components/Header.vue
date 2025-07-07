@@ -12,6 +12,10 @@
 	padding: 1rem;
 	background: #333842;
 	margin-bottom: 10px;
+	position: sticky;
+	top: 1rem;
+	z-index: 1000;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* optional */
 }
 a {
 	color: white;
