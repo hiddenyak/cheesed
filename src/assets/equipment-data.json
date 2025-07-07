@@ -104,7 +104,7 @@
 		"url": "https://zowie.benq.com/en-us/mouse/ec2-cw.html#",
 		"notes": "THERE IS A NEW VERSION AVAILABLE (ZOWIE EC1-DW) - The following applies to the EC1-CW:  Wireless gaming mouse. Comfortable shape, good for larger hands. Good battery life. Convenient charging dock. No software required. Only complaint is the weird mouse feet shape which makes it difficult to find replacement feet.",
 		"rating": "S",
-		"specifications": "60g, DPI 400 / 800 / 1600 / 3200, Report Rate 125 / 500 / 1000 Hz, 3360 sensor, 1000Hz polling rate,  3370 Sensor, 2.4G Wireless"
+		"specifications": "60g, DPI: 400 / 800 / 1600 / 3200, Report Rate: 125 / 500 / 1000 Hz, 3360 sensor, 1000Hz polling rate,  3370 Sensor, 2.4G Wireless"
 	},
 	{
 		"type": "Keyboard",
@@ -113,5 +113,21 @@
 		"notes": "Ideal keyboard layout (80%, dedicated arrow key section). Analog input with optical switches provides an advantage in gaming. Software is accessed through a web application.",
 		"rating": "S",
 		"specifications": "80% layout, Optical switches, 1.5mm actuation point, 3.6mm bottom out, RGB backlight, USB-C connection"
+	},
+	{
+		"type": "Mousepad",
+		"item": "Zowie G-SR",
+		"url": "https://zowie.benq.com/en-us/mouse-pad/g-sr-iii.html",
+		"notes": "Large mousepad with a smooth surface. Should be replaced regularly.",
+		"rating": "A",
+		"specifications": "Size: 470 x 390 mm , Thickness: 3.5mm, Material: Cloth surface with rubber base"
+	},
+	{
+		"type": "Monitor",
+		"item": "Dell Alienware AW2725DF",
+		"url": "https://www.dell.com/en-us/shop/alienware-27-360hz-qd-oled-gaming-monitor-aw2725df/apd/210-bljd/monitors-monitor-accessories",
+		"notes": "It's beautiful. Glossy panel could be a problem if your room is bright.",
+		"rating": "A",
+		"specifications": "Size: 27 inch, Resolution: 2560 x 1440, Refresh Rate: 360Hz, Response Time: 0.03ms, Panel Type: QD-OLED, Video Ports: 1x DisplayPort 1.4, 1x HDMI 2.0"
 	}
 ]
