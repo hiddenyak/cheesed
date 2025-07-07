@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<h1>Welcome to cheesed.net</h1>
-		<p>Gotta get good.</p>
+		<p>Gotta get good. 123</p>
 		<img
 			src="/cheese_man.webp"
 			alt="Cheese Man"
