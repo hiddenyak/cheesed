@@ -90,6 +90,18 @@ const columnDefs = ref<ColDef[]>([
 		sortable: true,
 		filter: true,
 		flex: 1,
+		autoHeight: true,
+		cellRenderer: (params: ICellRendererParams) => {
+			return `<div style="
+            white-space: pre-line;
+            word-break: break-word;
+            padding: 8px 4px;
+            line-height: 1.5;
+            box-sizing: border-box;
+            display: block;
+            height: 100%;
+        ">${params.value || ""}</div>`;
+		},
 	},
 ]);
 
