@@ -30,15 +30,16 @@ const columnDefs = ref<ColDef[]>([
 	{
 		headerName: "Rating",
 		field: "rating",
+		cellClass: "ag-center-cols-cell",
 		cellRenderer: (params: any) => {
 			const grade = params.value;
 			const colors: Record<string, string> = {
-				S: "#ffd700", // gold
-				A: "#4caf50", // green
-				B: "#2196f3", // blue
-				C: "#9e9e9e", // gray
-				D: "#ff9800", // orange
-				F: "#f44336", // red
+				S: "#fbc02d", // Gold Yellow
+				A: "#66bb6a", // Soft Green
+				B: "#42a5f5", // Soft Blue
+				C: "#90a4ae", // Slate Gray
+				D: "#ff7043", // Burnt Orange
+				F: "#ef5350", // Soft Red
 			};
 			const color = colors[grade] || "#ccc";
 
@@ -56,14 +57,14 @@ const columnDefs = ref<ColDef[]>([
 		width: 100,
 		sortable: true,
 		filter: true,
-		flex: 0.2,
+		flex: 0.25,
 	},
 	{
 		headerName: "Type",
 		field: "type",
 		sortable: true,
 		filter: true,
-		flex: 0.5,
+		flex: 0.3,
 	},
 	{
 		headerName: "Notes",
