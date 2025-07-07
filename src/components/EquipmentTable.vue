@@ -94,7 +94,7 @@ const columnDefs = ref<ColDef[]>([
 const rowData = ref([
 	{
 		type: "Small Pouch",
-		item: "Zip Pouch Pro",
+		item: "ALPAKA Zip Pouch Pro",
 		url: "https://alpakagear.com/products/zip-pouch-pro",
 		specifications: "8.5cm x 13cm, X-Pac VX21 material, YKK zippers",
 		notes:
@@ -103,7 +103,7 @@ const rowData = ref([
 	},
 	{
 		type: "Small Pouch",
-		item: "Hub Pouch",
+		item: "ALPAKA Hub Pouch",
 		url: "https://alpakagear.com/products/hub-pouch-pro",
 		notes:
 			"Too big when full for most pockets. Material which isn't stiff enough to keep shape, and also contorts in an unpleasant way when pouch is filled.",
@@ -113,7 +113,7 @@ const rowData = ref([
 	{
 		type: "Toiletry Pouch",
 		item: "ALPAKA Toiletry Bag",
-		url: "https://www.amazon.com/ALPAKA-Toiletry-Bag-Detachable-Accordion-Style/dp/B0CXX5JK32?...",
+		url: "https://alpakagear.com/products/toiletry-bag?view=sl-AB7DA072",
 		notes:
 			"Too small to carry an electric razor or electric toothbrush, but too large for only essentials. It's a high quality bag, but I don't use it.",
 		rating: "C",
