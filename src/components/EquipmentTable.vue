@@ -11,6 +11,8 @@ import {
 	colorSchemeDarkBlue,
 } from "ag-grid-community";
 
+import rowDataJson from "../assets/equipment-data.json";
+
 ModuleRegistry.registerModules([AllCommunityModule]);
 
 const myTheme = themeAlpine.withPart(colorSchemeDarkBlue);
@@ -91,116 +93,7 @@ const columnDefs = ref<ColDef[]>([
 	},
 ]);
 
-const rowData = ref([
-	{
-		type: "Small Pouch",
-		item: "ALPAKA Zip Pouch Pro",
-		url: "https://alpakagear.com/products/zip-pouch-pro",
-		specifications: "8.5cm x 13cm, X-Pac VX21 material, YKK zippers",
-		notes:
-			"Fits most pockets. Great wallet replacement. Have been using this for 6 months to carry cards, cash, carkey, and a small flashlight.",
-		rating: "A",
-	},
-	{
-		type: "Small Pouch",
-		item: "ALPAKA Hub Pouch",
-		url: "https://alpakagear.com/products/hub-pouch-pro",
-		notes:
-			"Too big when full for most pockets. Material which isn't stiff enough to keep shape, and also contorts in an unpleasant way when pouch is filled.",
-		rating: "D",
-		specifications: "12cm x 9cm, X-Pac VX21 material, YKK zippers",
-	},
-	{
-		type: "Toiletry Pouch",
-		item: "ALPAKA Toiletry Bag",
-		url: "https://alpakagear.com/products/toiletry-bag?view=sl-AB7DA072",
-		notes:
-			"Too small to carry an electric razor or electric toothbrush, but too large for only essentials. It's a high quality bag, but I don't use it.",
-		rating: "C",
-	},
-	{
-		type: "Toiletry Pouch",
-		item: "Peak Design Wash Pouch",
-		url: "https://www.peakdesign.com/products/wash-pouch?Size=Regular&Color=Black",
-		notes:
-			"This toiletry bag is on the larger side but I like it a lot it. Good for a longer trip or organization. I can fit all my toiletries in this bag including an electric razor and electric toothbrush. Has a built in hook to hang it up.",
-		rating: "B",
-	},
-	{
-		type: "Tech Pouch",
-		item: "Peak Design Tech Pouch",
-		url: "https://www.peakdesign.com/products/tech-pouch?Size=Regular&Color=Black",
-		notes:
-			"Offers great organization and ease of access with according style design and tons of pockets. Easy to organize essential tech items. I use it all the time.",
-		rating: "A",
-	},
-	{
-		type: "Key Organizer",
-		item: "Jibbon Leather Key Organizer",
-		url: "https://www.jibbonkey.com/products/all-black-key-organiser",
-		notes:
-			"It is extremely easy to add and remove keys, but durablility is questionable.",
-		rating: "B",
-		specifications: "Leather. Holds 3 to 9 standard keys",
-	},
-	{
-		type: "Key Organizer",
-		item: "Keyper Quick Release",
-		url: "https://www.urbancarvers.com/products/keyper",
-		rating: "UNTESTED",
-		notes: "Magnetic Key Ring. Possibly a very convenient way to carry keys.",
-	},
-	{
-		type: "Wallet",
-		item: "Carbon Fiber Liquid Wallet",
-		url: "https://liquidcarry.co/products/liquid-carbon-fiber-edition-gold-hardware",
-		notes: "Wallet that can also carry keys",
-		rating: "UNTESTED",
-	},
-	{
-		type: "T-Shirt",
-		item: "Crew Neck T-Shirt",
-		url: "https://www.uniqlo.com/us/en/products/E422992-000/00?colorDisplayCode=09&sizeDisplayCode=003",
-		notes:
-			"Heavy-weight cotton. Binding at the collar helps the neckline keep its shape.",
-		rating: "A",
-		specifications: "100% Cotton. Machine wash cold, Tumble dry low.",
-	},
-	{
-		type: "T-Shirt",
-		item: "SUPIMA® Cotton T-Shirt",
-		url: "https://www.uniqlo.com/us/en/products/E455365-000/00?colorDisplayCode=09&sizeDisplayCode=004",
-		notes:
-			"SUPIMA® cotton that is softer and more durable than regular cotton. This shirt resembles a classic t-shirt but has a more refined look.",
-		rating: "B",
-		specifications: "100% Cotton. Machine wash cold.",
-	},
-	{
-		type: "T-Shirt",
-		item: "Bronson Loopwheel Tubular Athletic T-Shirt",
-		url: "https://bronsonshop.com/products/loopwheel-tubular-athletic-t-shirt-vintage-black?option1=White&option2=M&variant=43915228774616",
-		notes: "10.5 oz. ringspun cotton. Tubular T-shirt, No-Seam.",
-		rating: "UNTESTED",
-		specifications: "100% Cotton. Machine washable.",
-	},
-	{
-		type: "T-Shirt",
-		item: "Bronson L9 oz US Cotton Tubular T-Shirt",
-		url: "https://bronsonshop.com/collections/short-sleeves/products/9-oz-us-cotton-ringspun-relaxed-fit-tubular-t-shirt-black?_pos=5&_fid=aaa74ecad&_ss=c&variant=40600251302083",
-		notes: "9 oz. cotton jersey. Tubular T-shirt, No-Seam",
-		rating: "UNTESTED",
-		specifications: "100% Cotton. Machine washable.",
-	},
-	{
-		type: "Pants",
-		item: "Wrangler ATG™ Men's Cliff Side Utility Pant",
-		url: "www.wrangler.com/shop/wrangler-atg-mens-cliff-side-utility-pant-NS849U.html?merchCategory=search&dwvar_NS849U_color=NS849ML",
-		notes:
-			"Cheap. Has a couple extra pockets. Lightweight and breathable. I don't find the material very comfortable.",
-		rating: "B",
-		specifications: "96% Nylon, 4% Spandex, 5.3 oz.",
-	},
-]);
+const rowData = ref(rowDataJson);
 
 const defaultColDef: ColDef = {
 	flex: 1,
