@@ -5,14 +5,14 @@
 		"url": "https://alpakagear.com/products/zip-pouch-pro",
 		"specifications": "8.5cm x 13cm, X-Pac VX21 material, YKK zippers",
 		"notes": "Fits most pockets. Great wallet replacement. Have been using this for 6 months to carry cards, cash, carkey, and a small flashlight.",
-		"rating": "A"
+		"rating": 8
 	},
 	{
 		"type": "Small Pouch",
 		"item": "ALPAKA Hub Pouch",
 		"url": "https://alpakagear.com/products/hub-pouch-pro",
 		"notes": "Too big when full for most pockets. Material which isn't stiff enough to keep shape, and also contorts in an unpleasant way when pouch is filled.",
-		"rating": "D",
+		"rating": 4,
 		"specifications": "12cm x 9cm, X-Pac VX21 material, YKK zippers"
 	},
 	{
@@ -20,35 +20,35 @@
 		"item": "ALPAKA Toiletry Bag",
 		"url": "https://alpakagear.com/products/toiletry-bag?view=sl-AB7DA072",
 		"notes": "Too small to carry an electric razor or electric toothbrush, but too large for only essentials. It's a high quality bag, but I don't use it.",
-		"rating": "C"
+		"rating": 6
 	},
 	{
 		"type": "Toiletry Pouch",
 		"item": "Peak Design Wash Pouch",
 		"url": "https://www.peakdesign.com/products/wash-pouch?Size=Regular&Color=Black",
 		"notes": "This toiletry bag is on the larger side but I like it a lot it. Good for a longer trip or organization. I can fit all my toiletries in this bag including an electric razor and electric toothbrush. Has a built in hook to hang it up.",
-		"rating": "B"
+		"rating": 8
 	},
 	{
 		"type": "Tech Pouch",
 		"item": "Peak Design Tech Pouch",
 		"url": "https://www.peakdesign.com/products/tech-pouch?Size=Regular&Color=Black",
 		"notes": "Offers great organization and ease of access with according style design and tons of pockets. Easy to organize essential tech items. I use it all the time.",
-		"rating": "A"
+		"rating": 9
 	},
 	{
 		"type": "Key Organizer",
 		"item": "Jibbon Leather Key Organizer",
 		"url": "https://www.jibbonkey.com/products/all-black-key-organiser",
 		"notes": "It is extremely easy to add and remove keys, but durablility is questionable.",
-		"rating": "B",
+		"rating": 5,
 		"specifications": "Leather. Holds 3 to 9 standard keys"
 	},
 	{
 		"type": "Key Organizer",
 		"item": "Keyper Quick Release",
 		"url": "https://www.urbancarvers.com/products/keyper",
-		"rating": "UNTESTED",
+		"rating": null,
 		"notes": "Magnetic Key Ring. Possibly a very convenient way to carry keys."
 	},
 	{
@@ -56,14 +56,14 @@
 		"item": "Carbon Fiber Liquid Wallet",
 		"url": "https://liquidcarry.co/products/liquid-carbon-fiber-edition-gold-hardware",
 		"notes": "Wallet that can also carry keys",
-		"rating": "UNTESTED"
+		"rating": null
 	},
 	{
 		"type": "T-Shirt",
 		"item": "Crew Neck T-Shirt",
 		"url": "https://www.uniqlo.com/us/en/products/E422992-000/00?colorDisplayCode=09&sizeDisplayCode=003",
 		"notes": "Heavy-weight cotton. Binding at the collar helps the neckline keep its shape.",
-		"rating": "A",
+		"rating": 8,
 		"specifications": "100% Cotton. Machine wash cold, Tumble dry low."
 	},
 	{
@@ -71,7 +71,7 @@
 		"item": "SUPIMA® Cotton T-Shirt",
 		"url": "https://www.uniqlo.com/us/en/products/E455365-000/00?colorDisplayCode=09&sizeDisplayCode=004",
 		"notes": "SUPIMA® cotton that is softer and more durable than regular cotton. This shirt resembles a classic t-shirt but has a more refined look.",
-		"rating": "B",
+		"rating": 7,
 		"specifications": "100% Cotton. Machine wash cold."
 	},
 	{
@@ -79,7 +79,7 @@
 		"item": "Bronson Loopwheel Tubular Athletic T-Shirt",
 		"url": "https://bronsonshop.com/products/loopwheel-tubular-athletic-t-shirt-vintage-black?option1=White&option2=M&variant=43915228774616",
 		"notes": "10.5 oz. ringspun cotton. Tubular T-shirt, No-Seam.",
-		"rating": "UNTESTED",
+		"rating": null,
 		"specifications": "100% Cotton. Machine washable."
 	},
 	{
@@ -87,7 +87,7 @@
 		"item": "Bronson L9 oz US Cotton Tubular T-Shirt",
 		"url": "https://bronsonshop.com/collections/short-sleeves/products/9-oz-us-cotton-ringspun-relaxed-fit-tubular-t-shirt-black?_pos=5&_fid=aaa74ecad&_ss=c&variant=40600251302083",
 		"notes": "9 oz. cotton jersey. Tubular T-shirt, No-Seam",
-		"rating": "UNTESTED",
+		"rating": null,
 		"specifications": "100% Cotton. Machine washable."
 	},
 	{
@@ -95,7 +95,7 @@
 		"item": "Wrangler ATG™ Men's Cliff Side Utility Pant",
 		"url": "www.wrangler.com/shop/wrangler-atg-mens-cliff-side-utility-pant-NS849U.html?merchCategory=search&dwvar_NS849U_color=NS849ML",
 		"notes": "Cheap. Has a couple extra pockets. Lightweight and breathable. I don't find the material very comfortable.",
-		"rating": "B",
+		"rating": 6,
 		"specifications": "96% Nylon, 4% Spandex, 5.3 oz."
 	},
 	{
@@ -103,7 +103,7 @@
 		"item": "Zowie EC1-CW",
 		"url": "https://zowie.benq.com/en-us/mouse/ec2-cw.html#",
 		"notes": "THERE IS A NEW VERSION AVAILABLE (ZOWIE EC1-DW) - The following applies to the EC1-CW:  Wireless gaming mouse. Comfortable shape, good for larger hands. Good battery life. Convenient charging dock. No software required. Only complaint is the weird mouse feet shape which makes it difficult to find replacement feet.",
-		"rating": "S",
+		"rating": 10,
 		"specifications": "60g, DPI: 400 / 800 / 1600 / 3200, Report Rate: 125 / 500 / 1000 Hz, 3360 sensor, 1000Hz polling rate,  3370 Sensor, 2.4G Wireless"
 	},
 	{
@@ -111,7 +111,7 @@
 		"item": "Wooting 80 HE",
 		"url": "https://wooting.io/wooting-80he/wooting-80he",
 		"notes": "Ideal keyboard layout (80%, dedicated arrow key section). Analog input with optical switches provides an advantage in gaming. Software is accessed through a web application.",
-		"rating": "S",
+		"rating": 10,
 		"specifications": "80% layout, Optical switches, 1.5mm actuation point, 3.6mm bottom out, RGB backlight, USB-C connection"
 	},
 	{
@@ -119,7 +119,7 @@
 		"item": "Zowie G-SR",
 		"url": "https://zowie.benq.com/en-us/mouse-pad/g-sr-iii.html",
 		"notes": "Large mousepad with a smooth surface. Should be replaced regularly.",
-		"rating": "A",
+		"rating": 8,
 		"specifications": "Size: 470 x 390 mm , Thickness: 3.5mm, Material: Cloth surface with rubber base"
 	},
 	{
@@ -127,7 +127,7 @@
 		"item": "Dell Alienware AW2725DF",
 		"url": "https://www.dell.com/en-us/shop/alienware-27-360hz-qd-oled-gaming-monitor-aw2725df/apd/210-bljd/monitors-monitor-accessories",
 		"notes": "It's beautiful. Glossy panel could be a problem if your room is bright.",
-		"rating": "A",
+		"rating": 8,
 		"specifications": "Size: 27 inch, Resolution: 2560 x 1440, Refresh Rate: 360Hz, Response Time: 0.03ms, Panel Type: QD-OLED, Video Ports: 1x DisplayPort 1.4, 1x HDMI 2.0"
 	}
 ]

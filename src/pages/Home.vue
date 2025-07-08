@@ -7,5 +7,9 @@
 			alt="Cheese Man"
 			style="max-width: 300px; margin-top: 20px"
 		/>
+		<img
+			src="https://visitor-badge.laobi.icu/badge?page_id=https://cheesed.net/"
+			alt="visitor badge"
+		/>
 	</div>
 </template>

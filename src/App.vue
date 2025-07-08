@@ -11,7 +11,6 @@ import Header from "./components/Header.vue";
 
 <style>
 main {
-	padding: 1rem;
 	box-sizing: border-box;
 }
 </style>
