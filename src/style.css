@@ -13,7 +13,7 @@ a {
 }
 
 body {
-	font-family: "Inter", sans-serif;
+	font-family: "Cascadia Code", sans-serif;
 	background: #27292e;
 	color: #e0e0e0;
 	margin: 3;
@@ -21,9 +21,6 @@ body {
 
 @media (max-width: 1000px) {
 	body {
-		font-family: "Inter", sans-serif;
-		background: #27292e;
-		color: #e0e0e0;
 		margin: 0;
 	}
 
@@ -55,4 +52,10 @@ body {
 	line-height: 2 !important;
 	padding-top: 2px !important;
 	padding-bottom: 2px !important;
+}
+
+.ag-theme-alpine .ag-cell,
+.ag-theme-alpine .ag-header-cell {
+	padding-left: 8px !important;
+	padding-right: 8px !important;
 }

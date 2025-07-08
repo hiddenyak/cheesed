@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="home-container">
 		<h1>Welcome to cheesed.net</h1>
 		<p>Gotta get good.</p>
 		<img
@@ -10,6 +10,15 @@
 		<img
 			src="https://visitor-badge.laobi.icu/badge?page_id=https://cheesed.net/"
 			alt="visitor badge"
+			style="margin-top: 20px"
 		/>
 	</div>
 </template>
+
+<style scoped>
+.home-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+</style>

@@ -129,5 +129,29 @@
 		"notes": "It's beautiful. Glossy panel could be a problem if your room is bright.",
 		"rating": 8,
 		"specifications": "Size: 27 inch, Resolution: 2560 x 1440, Refresh Rate: 360Hz, Response Time: 0.03ms, Panel Type: QD-OLED, Video Ports: 1x DisplayPort 1.4, 1x HDMI 2.0"
+	},
+	{
+		"type": "Flashlight",
+		"item": "ACEBEAM Pokelit AA",
+		"url": "https://www.acebeam.com/pokelit-aa",
+		"notes": "Compact flashlight that runs on AA batteries. Has a good brightness range and is very portable, but the UI kinda bad.",
+		"rating": 7,
+		"specifications": "Max Output: 550 lumens, Beam Distance: 130 meters, Battery: 1x AA or 14500 rechargeable lithium-ion battery, Material: Aluminum alloy, Waterproof: IP68"
+	},
+	{
+		"type": "Flashlight",
+		"item": "OLIGHT i3T 2 EOS",
+		"url": "https://www.olight.com/store/i3t-2-small-edc-flashlight",
+		"notes": "Compact flashlight that runs on AAA batteries. Very portable, but the UI is not great.",
+		"rating": 6,
+		"specifications": "Max Output: 200 lumens, Beam Distance: 62 meters, Battery: 1x AAA battery, Material: Aluminum alloy, Waterproof: IPX8"
+	},
+	{
+		"type": "Backpack",
+		"item": "Osprey Daylite™ Expandable Travel Pack 26+6",
+		"url": "https://www.osprey.com/daylitetm-expandable-travel-pack-26-6?size=O%2FS&color=Black",
+		"notes": "Highly recommended by the r/OneBag community. Clamshell design allows for easy packing and maximum storage. The 26+6 means it can expand from 26L to 32L. It has a laptop compartment and a front pocket for easy access to essentials.",
+		"rating": null,
+		"specifications": "Volume: 26L (expandable to 32L), Weight: 1.85lbs, Material: 100% recycled 300D polyester w/ ripstop."
 	}
 ]

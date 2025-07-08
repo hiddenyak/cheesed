@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Automated Investing Workflow",
+		"description": "I have 2 accounts with Fidelity: a Cash Management Account (CMA) that I used as my checking/savings account, and a brokerage account. My paycheck goes into this account. Each time I am paid, a recurring automatic transfer moves a specified amount into my brokerage account. The next day, a recurring automatic purchase of index funds is made with the money that was transferred. One can also use the Fideltiy Visa Card, which automatically puts 1.5% of purchase back into the CMA account.",
+		"benefit": "I never have to think about investing or spend time in my bank account. It also removes issues with human behavior and investing on time (I would often forget) or at all. If we compare effort in to value out this one is pretty hard to beat...",
+		"score": 10
+	},
+	{
+		"name": "WIN + X, U, U",
+		"description": "A quick way to shut down your computer using the keyboard. Press WIN + X, then U, then U again to initiate shutdown.",
+		"benefit": "Saves basically no time but it's so badass...",
+		"score": 2
+	},
+	{
+		"name": "Save no important files on your computer",
+		"description": "Use a NAS or/and cloud storage for all important files. I use a Synology NAS that I can access from anywhere, It's more cost effective than cloud storage for me.",
+		"benefit": "Never have to worry about my computer breaking and losing data. If I need to reinstall an operating system or similar there is little friction. Also, accessing important files from any device is so useful.",
+		"score": 6
+	},
+	{
+		"name": "Use a password manager",
+		"description": "Generate, store, and manage your passwords securely. Create strong and unique passwords for each account, making accounts more significantly secure. It can also help you fill in passwords automatically on websites. I use Bitwarden.",
+		"benefit": "Never waste time forgetting a password and being unable to login to an account. You have more important things to remember. ",
+		"score": 9
+	},
+	{
+		"name": "Never check a bag when flying",
+		"description": "Use a carry-on bag and personal item to pack everything you need for your trip. Osprey 26+6 Travel Pack is highly recommended as a personal item.",
+		"benefit": "Saves a ton of time at the airport, no need to wait for checked luggage, and eliminates the risk of lost luggage. It also forces you to pack light and only take what you really need.",
+		"score": 8
+	}
+]

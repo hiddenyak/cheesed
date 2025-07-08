@@ -9,24 +9,24 @@ import {
 	alpineCheesed,
 } from "../utils/agGridUtils";
 
-import rowDataJson from "../assets/equipment-data.json";
+import rowDataJson from "../assets/time-saves-data.json";
 
 ModuleRegistry.registerModules([AllCommunityModule]);
 
 const columnDefs = ref<ColDef[]>([
 	{
-		headerName: "ITEM",
-		field: "item",
+		headerName: "NAME",
+		field: "name",
 		sortable: true,
 		filter: true,
-		cellRenderer: (params: any) =>
-			`<a href="${params.data.url}" target="_blank" rel="noopener">${params.value}</a>`,
+		wrapText: true,
+		cellRenderer: (params: ICellRendererParams) =>
+			renderWrappedCell(params.value),
 		flex: 0.5,
-		pinned: "left",
 	},
 	{
 		headerName: "SCORE",
-		field: "rating",
+		field: "score",
 		sortable: true,
 		filter: "agNumberColumnFilter",
 		sort: "desc",
@@ -37,18 +37,11 @@ const columnDefs = ref<ColDef[]>([
 		},
 		cellClass: "rating-cell ag-center-cols-cell",
 		cellRenderer: (params: any) => renderRatingBadge(params.value),
+		width: 100,
 	},
 	{
-		headerName: "TYPE",
-		field: "type",
-		filter: true,
-		flex: 0.3,
-		hide: window.innerWidth < 600,
-		sortable: false,
-	},
-	{
-		headerName: "NOTES",
-		field: "notes",
+		headerName: "DESCRIPTION",
+		field: "description",
 		filter: true,
 		flex: 1.5,
 		autoHeight: true,
@@ -57,8 +50,8 @@ const columnDefs = ref<ColDef[]>([
 			renderWrappedCell(params.value),
 	},
 	{
-		headerName: "SPECIFICATIONS",
-		field: "specifications",
+		headerName: "BENEFIT",
+		field: "benefit",
 		sortable: false,
 		filter: true,
 		flex: 1,
@@ -72,7 +65,6 @@ const columnDefs = ref<ColDef[]>([
 const rowData = ref(rowDataJson);
 
 const defaultColDef: ColDef = {
-	flex: 1,
 	resizable: true,
 };
 </script>
