@@ -37,6 +37,7 @@ const columnDefs = ref<ColDef[]>([
 		},
 		cellClass: "rating-cell ag-center-cols-cell",
 		cellRenderer: (params: any) => renderRatingBadge(params.value),
+		width: 100,
 	},
 	{
 		headerName: "TYPE",
@@ -72,7 +73,6 @@ const columnDefs = ref<ColDef[]>([
 const rowData = ref(rowDataJson);
 
 const defaultColDef: ColDef = {
-	flex: 1,
 	resizable: true,
 };
 </script>
