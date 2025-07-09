@@ -93,7 +93,7 @@
 	{
 		"type": "Pants",
 		"item": "Wrangler ATG™ Men's Cliff Side Utility Pant",
-		"url": "www.wrangler.com/shop/wrangler-atg-mens-cliff-side-utility-pant-NS849U.html?merchCategory=search&dwvar_NS849U_color=NS849ML",
+		"url": "https://www.wrangler.com/shop/wrangler-atg-mens-cliff-side-utility-pant-NS849U.html",
 		"notes": "Cheap. Has a couple extra pockets. Lightweight and breathable. I don't find the material very comfortable.",
 		"rating": 6,
 		"specifications": "96% Nylon, 4% Spandex, 5.3 oz."
@@ -153,5 +153,13 @@
 		"notes": "Highly recommended by the r/OneBag community. Clamshell design allows for easy packing and maximum storage. The 26+6 means it can expand from 26L to 32L. It has a laptop compartment and a front pocket for easy access to essentials.",
 		"rating": null,
 		"specifications": "Volume: 26L (expandable to 32L), Weight: 1.85lbs, Material: 100% recycled 300D polyester w/ ripstop."
+	},
+	{
+		"type": "Multitool",
+		"item": "Leatherman ARC",
+		"url": "https://www.leatherman.com/products/arc",
+		"notes": "A compact multitool with a good selection of tools. The build quality is excellent. I don't need all the tools, but the one handed opening makes it so smooth to use compared to other multitools.",
+		"rating": 8,
+		"specifications": "Weight: 243.81g, Closed Length: 4.25in, Blade Length: 2.76in, 20 Tools including knife, pliers, wire cutters, bit driver, etc.), Material: Stainless steel with a black oxide finish. Knife is MagnaCut steel."
 	}
 ]
