@@ -4,7 +4,7 @@
 		"item": "ALPAKA Zip Pouch Pro",
 		"url": "https://alpakagear.com/products/zip-pouch-pro",
 		"specifications": "8.5cm x 13cm, X-Pac VX21 material, YKK zippers",
-		"notes": "Fits most pockets. Great wallet replacement. Have been using this for 6 months to carry cards, cash, carkey, and a small flashlight.",
+		"notes": "Fits most pockets. Great wallet replacement. Have been using this for 6 months to carry cards, cash, car key, and a small flashlight.",
 		"rating": 8
 	},
 	{
@@ -40,7 +40,7 @@
 		"type": "Key Organizer",
 		"item": "Jibbon Leather Key Organizer",
 		"url": "https://www.jibbonkey.com/products/all-black-key-organiser",
-		"notes": "It is extremely easy to add and remove keys, but durablility is questionable.",
+		"notes": "It is extremely easy to add and remove keys, but durability is questionable.",
 		"rating": 5,
 		"specifications": "Leather. Holds 3 to 9 standard keys"
 	},
@@ -155,11 +155,27 @@
 		"specifications": "Volume: 26L (expandable to 32L), Weight: 1.85lbs, Material: 100% recycled 300D polyester w/ ripstop."
 	},
 	{
-		"type": "Multitool",
+		"type": "Multi-tool",
 		"item": "Leatherman ARC",
 		"url": "https://www.leatherman.com/products/arc",
-		"notes": "A compact multitool with a good selection of tools. The build quality is excellent. I don't need all the tools, but the one handed opening makes it so smooth to use compared to other multitools.",
+		"notes": "A compact multi-tool with a good selection of tools. The build quality is excellent. I don't need all the tools, but the one handed opening makes it so smooth to use compared to other multi-tools.",
 		"rating": 8,
 		"specifications": "Weight: 243.81g, Closed Length: 4.25in, Blade Length: 2.76in, 20 Tools including knife, pliers, wire cutters, bit driver, etc.), Material: Stainless steel with a black oxide finish. Knife is MagnaCut steel."
+	},
+	{
+		"type": "Headset",
+		"item": "Corsair HS88 Max WIRELESS",
+		"url": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011295-na/hs80-max-wireless-gaming-headset-steel-gray-ca-9011295-na",
+		"notes": "Comfortable. Passable Mic/Sound Quality. Manually turning off the headset is annoying. Having to plug a USB-C cable into headset to charge when done is annoying and an extra cable to manage. CORSAIR iCUE software is required for full functionality (cringe).",
+		"rating": 6,
+		"specifications": "Weight: 360g, Battery Life: 24hr w/ RGB | 65hr w/o RGB, Connectivity: 2.4 GHz Wireless USB-A dongle, Bluetooth, Wired USB-A to USB-C, Features: Customizable RGB lighting, Dolby Atmos support, On-ear volume control, Microphone with flip-to-mute functionality."
+	},
+	{
+		"type": "Headset",
+		"item": "Fractal Design Scape",
+		"url": "https://www.fractal-design.com/products/headsets/scape/scape/dark/",
+		"notes": "A very well designed headset. I find the headband very uncomfortable, so I had to modify it, but this aside I think this is the best wireless gaming headset. Mic quality is passable. Closed back but has a very open sound compared to similar products. Comes with a charging station with wireless charging. When one is done using the headset, they simply place it in the charging station, which turns it off and charges it. The charging station has a spot for the 2.4GHz wireless dongle, but it can be easily removed to place in another device without having to use the dock. The headset EQ and other preferences can be adjusted through a web-based application, so it doesn't require installing GARBAGE SOFTWARE on one's PC. ALSO, not only can one adjust PC volume with a dial on the headset, but it also has PLAY/PAUSE/SKIP/BACK buttons for media control. WHAT MORE COULD YOU ASK FOR?",
+		"rating": 8,
+		"specifications": "Weight: 338g, Battery Life: 24hr w/ RGB | 40hr w/o RGB, Connectivity: 2.4 GHz Wireless USB-A dongle, Bluetooth 5.3, Wired USB-A to USB-C, Features: Customizable RGB lighting, On-ear volume/media control, On-ear button to swap EQ profiles, Microphone with flip-to-mute functionality."
 	}
 ]
