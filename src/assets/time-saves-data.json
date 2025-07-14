@@ -18,7 +18,7 @@
 		"score": 6
 	},
 	{
-		"name": "Use a password manager",
+		"name": "Password Manager",
 		"description": "Generate, store, and manage your passwords securely. Create strong and unique passwords for each account, making accounts more significantly secure. It can also help you fill in passwords automatically on websites. I use Bitwarden.",
 		"benefit": "Never waste time forgetting a password and being unable to login to an account. You have more important things to remember. ",
 		"score": 9
@@ -28,5 +28,23 @@
 		"description": "Use a carry-on bag and personal item to pack everything you need for your trip. Osprey 26+6 Travel Pack is highly recommended as a personal item.",
 		"benefit": "Saves a ton of time at the airport, no need to wait for checked luggage, and eliminates the risk of lost luggage. It also forces you to pack light and only take what you really need.",
 		"score": 8
+	},
+	{
+		"name": "Water Filter",
+		"description": "Use an under-sink or whole house water filter.",
+		"benefit": "Saves time compared to the hassle of refilling, cleaning, waiting for a water filter pitcher",
+		"score": 3
+	},
+	{
+		"name": "Take notes",
+		"description": "Use a note-taking app like Obsidian to keep track of your thoughts, ideas, and important information. Notes are underrated. I essentially have a personal wiki accessible anywhere with tons of information that doesn't need to take up space in my brain.",
+		"benefit": "Saves time by not having to remember everything. One can quickly refer or search notes when needed.",
+		"score": 8
+	},
+	{
+		"name": "Google/Apple Pay",
+		"description": "Use Google or Apple Pay to make payments quickly and securely without needing to carry cash or cards.",
+		"benefit": "Saves time at checkout and reduces the hassle of carrying physical cards or cash. It also can prevent credit card fraud as you don't have to hand over your card. It uses a token system instead (doesn't expose your actual card number).",
+		"score": 7
 	}
 ]

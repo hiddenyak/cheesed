@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Tiny Knife",
+		"description": "A Tiny man needs a Tiny knife. Like the opposite of what Crocodile Dundee has.",
+		"requestedBy": "M_MAN"
+	},
+	{
+		"name": "Shoes",
+		"description": "Need good shoes.",
+		"requestedBy": "cheese"
+	},
+	{
+		"name": "Ultrawide OLED 360hz monitor",
+		"description": "",
+		"requestedBy": "cheese"
+	}
+]

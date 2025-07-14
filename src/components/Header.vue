@@ -2,6 +2,7 @@
 	<nav class="header">
 		<router-link to="/">HOME</router-link>
 		<router-link to="/equipment">STASH</router-link>
+		<router-link to="/wish-list">WISH_LIST</router-link>
 		<router-link to="/zero-drag">ZERO_DRAG</router-link>
 	</nav>
 </template>

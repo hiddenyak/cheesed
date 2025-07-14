@@ -177,5 +177,13 @@
 		"notes": "A very well designed headset. I find the headband very uncomfortable, so I had to modify it, but this aside I think this is the best wireless gaming headset. Mic quality is passable. Closed back but has a very open sound compared to similar products. Comes with a charging station with wireless charging. When one is done using the headset, they simply place it in the charging station, which turns it off and charges it. The charging station has a spot for the 2.4GHz wireless dongle, but it can be easily removed to place in another device without having to use the dock. The headset EQ and other preferences can be adjusted through a web-based application, so it doesn't require installing GARBAGE SOFTWARE on one's PC. ALSO, not only can one adjust PC volume with a dial on the headset, but it also has PLAY/PAUSE/SKIP/BACK buttons for media control. WHAT MORE COULD YOU ASK FOR?",
 		"rating": 8,
 		"specifications": "Weight: 338g, Battery Life: 24hr w/ RGB | 40hr w/o RGB, Connectivity: 2.4 GHz Wireless USB-A dongle, Bluetooth 5.3, Wired USB-A to USB-C, Features: Customizable RGB lighting, On-ear volume/media control, On-ear button to swap EQ profiles, Microphone with flip-to-mute functionality."
+	},
+	{
+		"type": "Belt",
+		"item": "Groove Belt",
+		"url": "https://www.groovelife.com/products/groove-belt-black-black",
+		"notes": "A comfortable and durable belt that is really easy to put on or take off. I wear it every day.",
+		"rating": 9,
+		"specifications": "Width: 1.5in, Material: Stretchy nylon belt with aluminum buckle, Adjustable size, Lifetime warranty."
 	}
 ]

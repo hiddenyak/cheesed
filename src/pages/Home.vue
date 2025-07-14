@@ -1,12 +1,12 @@
+<script setup>
+import CheeseMan from "../components/CheeseMan.vue";
+</script>
+
 <template>
 	<div class="home-container">
 		<h1>Welcome to cheesed.net</h1>
 		<p>Gotta get good.</p>
-		<img
-			src="/cheese_man.webp"
-			alt="Cheese Man"
-			style="max-width: 300px; margin-top: 20px"
-		/>
+		<CheeseMan />
 		<img
 			src="https://visitor-badge.laobi.icu/badge?page_id=https://cheesed.net/"
 			alt="visitor badge"
@@ -20,5 +20,14 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: flex-start;
+	text-align: center;
+	min-height: calc(100vh - 100px);
+	padding: 2rem;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+.baloney {
 }
 </style>
