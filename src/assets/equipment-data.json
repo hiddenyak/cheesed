@@ -27,14 +27,16 @@
 		"item": "Peak Design Wash Pouch",
 		"url": "https://www.peakdesign.com/products/wash-pouch?Size=Regular&Color=Black",
 		"notes": "This toiletry bag is on the larger side but I like it a lot it. Good for a longer trip or organization. I can fit all my toiletries in this bag including an electric razor and electric toothbrush. Has a built in hook to hang it up.",
-		"rating": 8
+		"rating": 8,
+		"specifications": "Weight: 248g, Volume: 2.5L, Material: 100% recycled Weatherproof 200D nylon Versa Shell™"
 	},
 	{
 		"type": "Tech Pouch",
 		"item": "Peak Design Tech Pouch",
 		"url": "https://www.peakdesign.com/products/tech-pouch?Size=Regular&Color=Black",
 		"notes": "Offers great organization and ease of access with according style design and tons of pockets. Easy to organize essential tech items. I use it all the time.",
-		"rating": 9
+		"rating": 9,
+		"specifications": "Weight: 288g, Volume: 2L, Material: 100% recycled Weatherproof 400D nylon Versa Shell™"
 	},
 	{
 		"type": "Key Organizer",

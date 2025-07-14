@@ -6,6 +6,11 @@
 		:style="{ transform: `scale(${cheeseSize})` }"
 		title="Level up Cheese Man!"
 		@click="levelUpCheese"
+		@mousedown="startHold"
+		@mouseup="cancelHold"
+		@mouseleave="cancelHold"
+		@touchstart="startHold"
+		@touchend="cancelHold"
 	/>
 </template>
 
@@ -84,6 +89,18 @@ function listenForKonami() {
 			index = 0;
 		}
 	});
+}
+
+let holdTimeout: number | undefined;
+
+function startHold() {
+	holdTimeout = window.setTimeout(() => {
+		resetCheese();
+	}, 1000);
+}
+
+function cancelHold() {
+	clearTimeout(holdTimeout);
 }
 </script>
 

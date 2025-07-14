@@ -20,6 +20,7 @@
 	overflow-x: auto; /* allows scrolling */
 	white-space: nowrap; /* keeps links in one line */
 	-webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+	top: 0;
 }
 a {
 	color: white;
