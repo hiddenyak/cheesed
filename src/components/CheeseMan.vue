@@ -27,18 +27,17 @@ onMounted(() => {
 	listenForKonami();
 });
 
-function levelUpCheese(event: MouseEvent) {
+function levelUpCheese(event: MouseEvent | TouchEvent) {
+	if (suppressNextClick) {
+		suppressNextClick = false;
+		return; // ⛔ skip this click
+	}
+
 	cheeseSize.value += 0.2;
 	localStorage.setItem("cheeseSize", cheeseSize.value.toString());
 	powerupAudio.currentTime = 0;
 	powerupAudio.play();
-
-	fireConfetti(event.clientX, event.clientY);
-
-	// 🎯 Special milestone blasts
-	if ([10, 20, 50, 100].includes(Math.floor(cheeseSize.value))) {
-		fireConfetti(event.clientX, event.clientY, true); // big blast
-	}
+	fireConfetti(getEventX(event), getEventY(event));
 }
 
 function resetCheese() {
@@ -92,15 +91,25 @@ function listenForKonami() {
 }
 
 let holdTimeout: number | undefined;
+let suppressNextClick = false;
 
 function startHold() {
 	holdTimeout = window.setTimeout(() => {
 		resetCheese();
-	}, 1000);
+		suppressNextClick = true;
+	}, 1000); // 1 second hold = reset
 }
 
 function cancelHold() {
 	clearTimeout(holdTimeout);
+}
+
+function getEventX(e: MouseEvent | TouchEvent): number {
+	return "touches" in e ? e.touches[0].clientX : e.clientX;
+}
+
+function getEventY(e: MouseEvent | TouchEvent): number {
+	return "touches" in e ? e.touches[0].clientY : e.clientY;
 }
 </script>
 
