@@ -1,6 +1,6 @@
 [
 	{
-		"type": "Small Pouch",
+		"type": "Pouch",
 		"item": "ALPAKA Zip Pouch Pro",
 		"url": "https://alpakagear.com/products/zip-pouch-pro",
 		"specifications": "8.5cm x 13cm, X-Pac VX21 material, YKK zippers",
@@ -8,7 +8,7 @@
 		"rating": 8
 	},
 	{
-		"type": "Small Pouch",
+		"type": "Pouch",
 		"item": "ALPAKA Hub Pouch",
 		"url": "https://alpakagear.com/products/hub-pouch-pro",
 		"notes": "Too big when full for most pockets. Material which isn't stiff enough to keep shape, and also contorts in an unpleasant way when pouch is filled.",
@@ -187,5 +187,45 @@
 		"notes": "A comfortable and durable belt that is really easy to put on or take off. I wear it every day.",
 		"rating": 9,
 		"specifications": "Width: 1.5in, Material: Stretchy nylon belt with aluminum buckle, Adjustable size, Lifetime warranty."
+	},
+	{
+		"type": "Pouch",
+		"item": "Maxpedition Mini Pocket Organizer",
+		"url": "https://www.maxpedition.com/collections/pouches/products/mini-pocket-organizer?variant=27869021009",
+		"notes": "Has good size pockets and loops but its too big for most pockets, and too inconvenient to access items within. Could be good for medical supplies or other small items that don't need to be accessed frequently.",
+		"rating": 4,
+		"specifications": "1050-Denier water and abrasion resistant light-weight ballistic nylon fabric, Main compartment Dimensions: 4\"(L) x 1\"(W) x 6\"(H), Weight: 113 grams"
+	},
+	{
+		"type": "Pouch",
+		"item": "Maxpedition E.D.C. Pocket Organizer",
+		"url": "https://www.maxpedition.com/collections/pouches/products/e-d-c-pocket-organizer?variant=12191272042567",
+		"notes": "Large but the pouch is very thin which makes it really hard to stuff that isn't very thin.",
+		"rating": 2,
+		"specifications": "1050-Denier water and abrasion resistant light-weight ballistic nylon fabric, Main compartment Dimensions: 5\"(L) x 1\"(W) x 7\"(H)"
+	},
+	{
+		"type": "Pouch",
+		"item": "Maxpedition Double-Decker Mini Pocket Organizer",
+		"url": "https://www.maxpedition.com/collections/pouches/products/double-decker-mini-pocket-organizer?variant=40449128169543",
+		"notes": "This pouch is too big for a pocket but its very nice for small tools or other items that need to be organized together. It has many pockets and loops for organization.",
+		"rating": 7,
+		"specifications": "1050-Denier water and abrasion resistant light-weight ballistic nylon fabric, Overall size: 4\"(L) x 2.5\"(W) x 6\"(H), Weight: 139 grams"
+	},
+	{
+		"type": "Pouch",
+		"item": "VE1 EDC Multifunctional Organizer Pouch",
+		"url": "https://www.viperade.com/products/edc-multifunctional-organizer-pouch-ve1",
+		"notes": "Poorly designed. The big pocket is nice, but the small pockets are all weird sizes and the band is not elastic so if you try to hold an item with it, it bends the entire pouch.",
+		"rating": 2,
+		"specifications": "Material: 500D Oxford fabric, Dimensions:5.90in(H) x 3.70in(W) x 0.55in(T), Weight:51g"
+	},
+	{
+		"type": "Screwdriver",
+		"item": "HOTO Precision Screwdriver Pen",
+		"url": "https://hototools.com/products/24in1-precision-screwdriver",
+		"notes": "A compact and portable precision screwdriver with 24 bits. The build quality is excellent and it has a magnetic tip for easy bit changes. The bits are stored inside the pen, making it very convenient to carry.",
+		"rating": null,
+		"specifications": "24 S2-Steel Precision Bits, Aluminum Alloy Body"
 	}
 ]
