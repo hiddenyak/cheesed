@@ -62,7 +62,7 @@
 	},
 	{
 		"type": "T-Shirt",
-		"item": "Crew Neck T-Shirt",
+		"item": "UNIQLO Crew Neck T-Shirt",
 		"url": "https://www.uniqlo.com/us/en/products/E422992-000/00?colorDisplayCode=09&sizeDisplayCode=003",
 		"notes": "Heavy-weight cotton. Binding at the collar helps the neckline keep its shape.",
 		"rating": 8,
@@ -70,7 +70,7 @@
 	},
 	{
 		"type": "T-Shirt",
-		"item": "SUPIMA® Cotton T-Shirt",
+		"item": "UNIQLO SUPIMA® Cotton T-Shirt",
 		"url": "https://www.uniqlo.com/us/en/products/E455365-000/00?colorDisplayCode=09&sizeDisplayCode=004",
 		"notes": "SUPIMA® cotton that is softer and more durable than regular cotton. This shirt resembles a classic t-shirt but has a more refined look.",
 		"rating": 7,
@@ -227,5 +227,10 @@
 		"notes": "A compact and portable precision screwdriver with 24 bits. The build quality is excellent and it has a magnetic tip for easy bit changes. The bits are stored inside the pen, making it very convenient to carry.",
 		"rating": null,
 		"specifications": "24 S2-Steel Precision Bits, Aluminum Alloy Body"
+	},
+	{
+		"type": "Wallet",
+		"item": "The Bolder XL",
+		"url": "https://arc-company-usa.com/shop/p/the-bolder-xl"
 	}
 ]
