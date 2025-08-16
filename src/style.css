@@ -59,3 +59,9 @@ body {
 	padding-left: 8px !important;
 	padding-right: 8px !important;
 }
+
+.ag-header-cell-label {
+	white-space: normal !important; /* let it wrap */
+	line-height: 1.2; /* keeps it from looking squished */
+	text-align: center; /* optional: center it */
+}

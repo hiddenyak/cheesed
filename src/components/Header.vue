@@ -4,6 +4,7 @@
 		<router-link to="/equipment">STASH</router-link>
 		<router-link to="/wish-list">WISH_LIST</router-link>
 		<router-link to="/zero-drag">ZERO_DRAG</router-link>
+		<router-link to="/photon-throwers">PHOTON_THROWERS</router-link>
 	</nav>
 </template>
 

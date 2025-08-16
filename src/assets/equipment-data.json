@@ -34,8 +34,8 @@
 		"type": "Tech Pouch",
 		"item": "Peak Design Tech Pouch",
 		"url": "https://www.peakdesign.com/products/tech-pouch?Size=Regular&Color=Black",
-		"notes": "Offers great organization and ease of access with according style design and tons of pockets. Easy to organize essential tech items. I use it all the time.",
-		"rating": 9,
+		"notes": "Offers great organization and ease of access with according style design and tons of pockets. Easy to organize essential tech items.",
+		"rating": 8,
 		"specifications": "Weight: 288g, Volume: 2L, Material: 100% recycled Weatherproof 400D nylon Versa Shell™"
 	},
 	{
@@ -232,5 +232,13 @@
 		"type": "Wallet",
 		"item": "The Bolder XL",
 		"url": "https://arc-company-usa.com/shop/p/the-bolder-xl"
+	},
+	{
+		"type": "Battery",
+		"item": "Coast AAA USB-C Rechargeable Batteries, ZITHION-X",
+		"url": "https://www.amazon.com/dp/B0CFT8HHVF?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+		"notes": "These batteries have a built in USB-C charging port and have USB PD so they are rechargeable via USB-C to USB-C. It was very hard to find a rechargeable AAA battery that has USB-C charging and USB PD - others require an USB-A to USB-C. Inside is really a 3.7V cell, and there is a regulator to bring it down to 1.5V. Some devices may not work properly because of this.",
+		"specifications": "Lithium Ion, 1.5v, 750 mAh, USB-C rechargeable, USB PD",
+		"rating": null
 	}
 ]

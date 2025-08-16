@@ -1,0 +1,69 @@
+[
+	{
+		"name": "Arkfeld Ultra",
+		"brand": "OLIGHT",
+		"rating": "8.0",
+		"notes": "I love this flashlight. It has great UI. My only complaints are the proprietary charger and irreplaceable battery."
+	},
+	{
+		"name": "Pokelit AA",
+		"brand": "ACEBEAM",
+		"weight": "54.6g",
+		"lightType": "LED",
+		"emitter": "NICHIA 219F",
+		"batteryType": "1*AA / 1*14500",
+		"waterResistance": "IP68",
+		"lumensHigh": "885lm",
+		"lumensLow": "7lm",
+		"candelaHigh": "2500cd",
+		"candelaLow": "25cd",
+		"runTimeHigh": "1.5h",
+		"runTimeLow": "58h",
+		"distanceHigh": "100m",
+		"distanceLow": "10m",
+		"rating": "7.5",
+		"replaceableBattery": "Yes",
+		"usbRechargeable": false,
+		"onboardCharging": "No",
+		"adjustableFocus": false,
+		"notes": "UI leaves something to be desired, but the light is very compact and has a good output for its size.",
+		"url": "https://www.acebeam.com/pokelit-aa-gray",
+		"price": "$23"
+	},
+	{
+		"name": "i3T 2 EOS",
+		"brand": "OLIGHT"
+	},
+	{
+		"name": "G5",
+		"brand": "Wuben"
+	},
+	{
+		"name": "SK05",
+		"brand": "LOOP GEAR"
+	},
+	{
+		"name": "A8",
+		"brand": "RovyVon"
+	},
+	{
+		"name": "imini 2",
+		"brand": "OLIGHT"
+	},
+	{
+		"name": "i1R 2",
+		"brand": "OLIGHT"
+	},
+	{
+		"name": "i3E EOS",
+		"brand": "OLIGHT"
+	},
+	{
+		"name": "Marauder Mini",
+		"brand": "OLIGHT"
+	},
+	{
+		"name": "M21H",
+		"brand": "Convoy"
+	}
+]

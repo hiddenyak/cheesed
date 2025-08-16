@@ -1,14 +1,14 @@
 [
 	{
 		"name": "Automated Investing Workflow",
-		"description": "I have 2 accounts with Fidelity: a Cash Management Account (CMA) that I used as my checking/savings account, and a brokerage account. My paycheck goes into this account. Each time I am paid, a recurring automatic transfer moves a specified amount into my brokerage account. The next day, a recurring automatic purchase of index funds is made with the money that was transferred. One can also use the Fideltiy Visa Card, which automatically puts 1.5% of purchase back into the CMA account.",
+		"description": "I have 2 accounts with Fidelity: a Cash Management Account (CMA) that I used as my checking/savings account, and a brokerage account. My paycheck goes into this account. Each time I am paid, a recurring automatic transfer moves a specified amount into my brokerage account. The next day, a recurring automatic purchase of index funds is made with the money that was transferred. One can also use the Fidelity Visa Card, which automatically puts 1.5% of purchase back into the CMA account.",
 		"benefit": "I never have to think about investing or spend time in my bank account. It also removes issues with human behavior and investing on time (I would often forget) or at all. If we compare effort in to value out this one is pretty hard to beat...",
 		"score": 10
 	},
 	{
 		"name": "WIN + X, U, U",
 		"description": "A quick way to shut down your computer using the keyboard. Press WIN + X, then U, then U again to initiate shutdown.",
-		"benefit": "Saves basically no time but it's so badass...",
+		"benefit": "Saves basically no time but it's so bad ass...",
 		"score": 2
 	},
 	{

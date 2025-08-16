@@ -9,12 +9,12 @@ import {
 	alpineCheesed,
 } from "../utils/agGridUtils";
 
-import rowDataJson from "../assets/equipment-data.json";
-import { EquipmentItem } from "@/types/grid";
+import rowDataJson from "../assets/photon-throwers-data.json";
+import { PhotonThrowerItem } from "@/types/grid";
 
 ModuleRegistry.registerModules([AllCommunityModule]);
 
-const selected = ref<EquipmentItem | null>(null);
+const selected = ref<PhotonThrowerItem | null>(null);
 const isMobile = ref(window.innerWidth < 1000);
 
 function selectItem(item: any) {
@@ -38,15 +38,17 @@ onMounted(() => {
 const columnDefs = ref<ColDef[]>([
 	{
 		headerName: "NAME",
-		field: "item",
+		field: "name",
+		sortable: true,
 		cellRenderer: (params: any) =>
 			`<a href="${params.data.url}" target="_blank" rel="noopener">${params.value}</a>`,
-		flex: 0.5,
 		pinned: "left",
+		width: 150,
 	},
 	{
 		headerName: "SCORE",
 		field: "rating",
+		sortable: true,
 		filter: "agNumberColumnFilter",
 		sort: "desc",
 		comparator: (a, b) => {
@@ -59,30 +61,97 @@ const columnDefs = ref<ColDef[]>([
 		width: 100,
 	},
 	{
-		headerName: "TYPE",
-		field: "type",
-		flex: 0.3,
-		hide: window.innerWidth < 600,
-		sortable: false,
-	},
-	{
 		headerName: "NOTES",
 		field: "notes",
-		flex: 1.5,
 		autoHeight: true,
 		sortable: false,
 		cellRenderer: (params: ICellRendererParams) =>
 			renderWrappedCell(params.value),
 	},
 	{
-		headerName: "SPECIFICATIONS",
-		field: "specifications",
-		sortable: false,
-		flex: 1,
-		autoHeight: true,
-		cellRenderer: (params: ICellRendererParams) =>
-			renderWrappedCell(params.value),
-		hide: window.innerWidth < 600,
+		headerName: "PRICE",
+		field: "price",
+		width: 80,
+	},
+	{
+		headerName: "BRAND",
+		field: "brand",
+		width: 80,
+	},
+	{
+		headerName: "WEIGHT",
+		field: "weight",
+		width: 80,
+	},
+	{
+		headerName: "LIGHT TYPE",
+		field: "lightType",
+		width: 80,
+	},
+	{
+		headerName: "EMITTER",
+		field: "emitter",
+		width: 120,
+	},
+	{
+		headerName: "LUMENS (HIGH)",
+		field: "lumensHigh",
+		width: 80,
+	},
+	{
+		headerName: "CANDELA (HIGH)",
+		field: "candelaHigh",
+		width: 90,
+	},
+	{
+		headerName: "RANGE (HIGH)",
+		field: "distanceHigh",
+		width: 80,
+	},
+	{
+		headerName: "RUN TIME (HIGH)",
+		field: "runTimeHigh",
+		width: 80,
+	},
+	{
+		headerName: "LUMENS (LOW)",
+		field: "lumensLow",
+		width: 80,
+	},
+	{
+		headerName: "CANDELA (LOW)",
+		field: "candelaLow",
+		width: 90,
+	},
+	{
+		headerName: "RANGE (LOW)",
+		field: "distanceLow",
+		width: 80,
+	},
+	{
+		headerName: "RUN TIME (LOW)",
+		field: "runTimeLow",
+		width: 80,
+	},
+	{
+		headerName: "ZOOMABLE",
+		field: "adjustableFocus",
+		width: 100,
+	},
+	{
+		headerName: "ONBOARD CHARGING",
+		field: "usbRechargeable",
+		width: 100,
+	},
+	{
+		headerName: "BATTERY",
+		field: "batteryType",
+		width: 150,
+	},
+	{
+		headerName: "WATERPROOF",
+		field: "waterResistance",
+		width: 110,
 	},
 ]);
 
@@ -91,7 +160,6 @@ const rowData = ref(rowDataJson);
 const defaultColDef: ColDef = {
 	resizable: true,
 	filter: true,
-	sortable: true,
 };
 </script>
 
@@ -102,10 +170,10 @@ const defaultColDef: ColDef = {
 			<div
 				class="mobile-item"
 				v-for="item in sortedRowData"
-				:key="item.item"
+				:key="item.name"
 				@click="selectItem(item)"
 			>
-				<div class="item-name">{{ item.item }}</div>
+				<div class="item-name">{{ item.name }}</div>
 				<div class="item-rating" v-html="renderRatingBadge(item.rating)"></div>
 			</div>
 
@@ -114,8 +182,50 @@ const defaultColDef: ColDef = {
 				<div class="modal-content">
 					<button class="close-btn" @click="selected = null">✖</button>
 					<h3>{{ selected.name }}</h3>
-					<p><strong>Notes:</strong> {{ selected.notes }}</p>
-					<p><strong>Specs:</strong> {{ selected.specifications }}</p>
+					<p><strong>Brand:</strong> {{ selected.brand }}</p>
+					<p><strong>Weight:</strong> {{ selected.weight }}</p>
+					<p><strong>Light Type:</strong> {{ selected.lightType }}</p>
+					<p><strong>Emitter:</strong> {{ selected.emitter }}</p>
+					<p><strong>Lumens (High):</strong> {{ selected.lumensHigh }}</p>
+					<p><strong>Lumens (Low):</strong> {{ selected.lumensLow }}</p>
+					<p><strong>Candela (High):</strong> {{ selected.candelaHigh }}</p>
+					<p><strong>Candela (Low):</strong> {{ selected.candelaLow }}</p>
+					<p><strong>Run Time (High):</strong> {{ selected.runTimeHigh }}</p>
+					<p><strong>Run Time (Low):</strong> {{ selected.runTimeLow }}</p>
+					<p><strong>Distance (High):</strong> {{ selected.distanceHigh }}</p>
+					<p><strong>Distance (Low):</strong> {{ selected.distanceLow }}</p>
+					<p>
+						<strong>Focusable Beam:</strong>
+						{{ selected.focusableBeam ? "Yes" : "No" }}
+					</p>
+					<p>
+						<strong>Replaceable Battery:</strong>
+						{{ selected.replaceableBattery ? "Yes" : "No" }}
+					</p>
+					<p><strong>Battery Type:</strong> {{ selected.batteryType }}</p>
+					<p>
+						<strong>USB Rechargeable:</strong>
+						{{ selected.usbRechargeable ? "Yes" : "No" }}
+					</p>
+					<p>
+						<strong>Onboard Charging:</strong>
+						{{ selected.onboardCharging ? "Yes" : "No" }}
+					</p>
+					<p>
+						<strong>Water Resistance:</strong> {{ selected.waterResistance }}
+					</p>
+					<p><strong>Price:</strong> {{ selected.price }}</p>
+					<p>
+						<strong>Score:</strong>
+						<span v-html="renderRatingBadge(selected.rating)"></span>
+					</p>
+					<p>
+						<strong>URL:</strong>
+						<a :href="selected.url" target="_blank" rel="noopener">{{
+							selected.url
+						}}</a>
+					</p>
+
 					<a :href="selected.url" target="_blank">View Product</a>
 				</div>
 			</div>
@@ -134,6 +244,9 @@ const defaultColDef: ColDef = {
 				:defaultColDef="defaultColDef"
 				:animateRows="true"
 				:theme="alpineCheesed"
+				:headerHeight="75"
+				:wrapHeaderText="true"
+				:autoHeaderHeight="true"
 			/>
 		</div>
 	</div>

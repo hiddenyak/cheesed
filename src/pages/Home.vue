@@ -27,7 +27,4 @@ import CheeseMan from "../components/CheeseMan.vue";
 	box-sizing: border-box;
 	overflow-x: hidden;
 }
-
-.baloney {
-}
 </style>

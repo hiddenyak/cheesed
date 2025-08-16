@@ -19,7 +19,7 @@ import { ref, onMounted } from "vue";
 import confetti from "canvas-confetti";
 
 const cheeseSize = ref(1);
-const powerupAudio = new Audio("/powerup.mp3");
+const powerUpAudio = new Audio("/powerup.mp3");
 
 onMounted(() => {
 	const saved = localStorage.getItem("cheeseSize");
@@ -35,8 +35,8 @@ function levelUpCheese(event: MouseEvent | TouchEvent) {
 
 	cheeseSize.value += 0.2;
 	localStorage.setItem("cheeseSize", cheeseSize.value.toString());
-	powerupAudio.currentTime = 0;
-	powerupAudio.play();
+	powerUpAudio.currentTime = 0;
+	powerUpAudio.play();
 	fireConfetti(getEventX(event), getEventY(event));
 }
 
