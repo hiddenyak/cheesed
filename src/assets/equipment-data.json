@@ -240,5 +240,13 @@
 		"notes": "These batteries have a built in USB-C charging port and have USB PD so they are rechargeable via USB-C to USB-C. It was very hard to find a rechargeable AAA battery that has USB-C charging and USB PD - others require an USB-A to USB-C. Inside is really a 3.7V cell, and there is a regulator to bring it down to 1.5V. Some devices may not work properly because of this.",
 		"specifications": "Lithium Ion, 1.5v, 750 mAh, USB-C rechargeable, USB PD",
 		"rating": null
+	},
+	{
+		"type": "Pants",
+		"item": "Western Rise Diversion Pant Classic",
+		"url": "https://westernrise.com/products/diversion-pant-classic-blue-grey?variant=41962026434743",
+		"notes": "These pants are very comfortable and have a good fit. They are made of a stretchy material that allows for ease of movement.",
+		"rating": 8,
+		"specifications": "Material: Double Woven Canvas: 94% Nylon, 6% Spandex"
 	}
 ]
